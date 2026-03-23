@@ -4,7 +4,7 @@ public class Code02_09 {
         int resAdd;
         int resSub;
         int resMul;
-        int resDiv;
+        double resDiv;
 
         resAdd = number1 + number2;
         resSub = number1 - number2;
