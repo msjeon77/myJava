@@ -4,15 +4,12 @@ public class Exam02 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
 
-        String a = s.next();
-        String b = s.next();
+        String ss = s.nextLine();
 
-        String result = a + b;
+       String var1 = ss.toLowerCase();
+        var1 = var1.replaceAll(" ","");
 
-        result = result.toLowerCase();
-        result = result.replace(" ","");
-
-        System.out.println(result);
+        System.out.println(var1);
 
         s.close();
     }
