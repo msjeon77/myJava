@@ -4,11 +4,11 @@ public class Exam03_01 {
         for (int i = 1; i <= 7; i++) {
 
             if (i <= 4) {   // 위쪽
-                for (int j = 1; j <= i; j++) {
+                for (int k = 1; k <= i; k++) {
                     System.out.print("*");
                 }
             } else {        // 아래쪽
-                for (int j = 1; j <= 8 - i; j++) {
+                for (int k = 1; k <= 8 - i; k++) {
                     System.out.print("*");
                 }
             }
